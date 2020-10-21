@@ -7,18 +7,12 @@ var bdd = /** @class */ (function () {
         if (flag) {
             return [
                 {
-                    id: 2,
-                    creation_date: "s",
-                    create_hour: "d",
-                },
-                {
                     id: 1,
                     creation_date: "s",
                     create_hour: "d",
                 },
             ];
-        }
-        else {
+        } else {
             return false;
         }
     };
