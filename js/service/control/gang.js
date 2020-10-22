@@ -1,4 +1,4 @@
-let information = {
+let information_gang = {
     query: {
         data: new Array(),
     },
@@ -7,11 +7,11 @@ let information = {
         final: 10,
     }
 };
-const more = () => {
+const more_information_gang = () => {
     information.indexation.start+=10;
     information.indexation.final+=10;
 }
-const init = async() => {
+const get_information_gang = async() => {
     try {
         const answer = await fetch("js/service/bdd/gang.json");
         information.query.data = await answer.json();

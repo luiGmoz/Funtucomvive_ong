@@ -1,7 +1,7 @@
 const reformat_Q_constant = (value, init_number) => {
     let answer = "";
-    for (let i = init_number; i < x.length; i++) {
-        answer += x[i];
+    for (let i = init_number; i < value.length; i++) {
+        answer += value[i];
     }
     return answer;
 }
