@@ -7,9 +7,13 @@ let information_gang = {
         final: 10,
     }
 };
+const reset_information_gang = () => {
+    information.indexation.start = 0;
+    information.indexation.final = 10;
+}
 const more_information_gang = () => {
-    information.indexation.start+=10;
-    information.indexation.final+=10;
+    information.indexation.start += 10;
+    information.indexation.final += 10;
 }
 const get_information_gang = async() => {
     try {
